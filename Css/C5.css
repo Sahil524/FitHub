@@ -1,0 +1,100 @@
+.H1 {
+    font-family: IBM Plex Sans Condensed;
+}
+
+.top-info {
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.web-logo {
+    width: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.N1 {
+    font-family: Ms Madi;
+    text-align: center;
+    font-size: 300%;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.about-me {
+    font-family: Shadows Into Light;
+    display: inline-block;
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.icons-align {
+    float: right;
+}
+
+.icons {
+    width: 28px;
+    padding-left: 10px;
+}
+
+.cvb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cvb-title {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.icons-2 {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: lightcyan;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: IBM Plex Sans Condensed;
+    margin-top: 75px;
+}
+
+.card-img-top {
+    width: 35%;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333%);
+    }
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}

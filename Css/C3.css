@@ -1,0 +1,51 @@
+.login-pg {
+    justify-items: center;
+}
+
+.H2 {
+    font-family: Shadows Into Light;
+    margin: 35px;
+}
+
+.P1,
+.B1,
+.S1 {
+    font-family: IBM Plex Sans Condensed;
+}
+
+.B1 {
+    margin-top: 45px;
+}
+
+.back-button {
+    width: 25px;
+    display: inline-block;
+}
+
+.H1 {
+    font-family: Ms Madi;
+    text-align: center;
+    font-size: 55px;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.top-info {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    text-align: center;
+}
+
+.S1 {
+    margin: 25px;
+    width: fit-content;
+}
+
+.reg-img {
+    width: 45%;
+}
+
+.e-id {
+    width: 60%;
+}

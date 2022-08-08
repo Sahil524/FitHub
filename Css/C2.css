@@ -1,0 +1,90 @@
+.N1 {
+    font-family: Ms Madi;
+    text-align: center;
+    font-size: 300%;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.web-logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.about-me {
+    font-family: Shadows Into Light;
+    display: inline-block;
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.L1 {
+    width: 1.5%;
+    display: inline-block;
+}
+
+.icons {
+    width: 28px;
+    padding-left: 10px;
+}
+
+.icons-align {
+    float: right;
+}
+
+.H1 {
+    font-family: IBM Plex Sans Condensed;
+}
+
+.img-1 {
+    width: 38%;
+}
+
+.img-2 {
+    width: 20%;
+}
+
+.H2 {
+    font-family: Paytone One;
+}
+
+.H3 {
+    font-family: Righteous;
+}
+
+.P2,
+.P1,
+li {
+    font-style: Montserrat;
+}
+
+.aes-img1 {
+    width: 720px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: lightcyan;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: IBM Plex Sans Condensed;
+}
+
+.icons-2 {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.dkp {
+    font-family: Righteous;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.P1 {
+    padding-left: 20%;
+    padding-right: 20%;
+}

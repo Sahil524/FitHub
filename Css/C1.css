@@ -1,0 +1,130 @@
+    .bg2 {
+        width: 75%;
+    }
+    
+    .N1 {
+        font-family: Ms Madi;
+        cursor: pointer;
+    }
+    
+    .contact-us {
+        display: inline;
+        color: black;
+        font-family: IBM Plex Sans Condensed;
+        font-size: 20px;
+    }
+    
+    .fnt-1 {
+        text-decoration: none;
+    }
+    
+    .web-logo {
+        width: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .logo-contact {
+        width: 65px;
+        margin-left: 25px;
+    }
+    
+    .heading-io {
+        font-family: Paytone One;
+    }
+    
+    .greet {
+        display: inline-block;
+        font-size: 46px;
+        font-family: Paytone One;
+        text-align: center;
+    }
+    
+    .srt-info {
+        font-size: 18px;
+    }
+    
+    .about-me {
+        font-family: Montserrat;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .profile-photo {
+        width: 20%;
+        border-radius: 100%;
+    }
+    
+    .img-work {
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+    }
+    
+    .F1 {
+        grid-column-start: 2;
+    }
+    
+    .up-work-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column: span 2;
+        gap: 1rem;
+    }
+    
+    @media all and (max-width: 1080px) {
+        .srt-info {
+            display: none;
+        }
+    }
+    
+    @media all and (max-width: 600px) {
+        .up-work-img {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            row-gap: 10px;
+        }
+        .img-work {
+            width: 280px;
+            height: 280px;
+        }
+        .F1 {
+            grid-column-start: span 1;
+        }
+        .greet {
+            font-size: 28px;
+        }
+        .about-me {
+            font-size: 12px;
+        }
+        .profile-photo {
+            width: 35%;
+        }
+        .contact-us {
+            font-size: 18px;
+        }
+        .logo-contact {
+            width: 35px;
+        }
+    }
+    
+    @media all and (max-width: 400px) {
+        .up-work-img {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .greet {
+            font-size: 18px;
+        }
+        .about-me {
+            font-size: 9px;
+        }
+        .contact-us {
+            font-size: 10px;
+        }
+        .logo-contact {
+            width: 45px;
+        }
+    }
